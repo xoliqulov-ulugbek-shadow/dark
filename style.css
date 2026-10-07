@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+}
+
+.header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+    border: solid 2px wheat;
+  font-family: "K2D", sans-serif;
+  color: black;
+}
+
+input{
+    color: black;
+    font-weight: bolder;
+    outline: none;
+    border: solid #472323 3px;
+    border-radius: 10px;
+    color: #472323;
+transition: 0.5s;
+}
+
+#dark{
+    color: #472323;
+    background: none;
+    border: #472323 1px solid;
+    font-weight: bold;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+#dark:hover{
+color: white;
+background-color: #472323;
+border: none;
+
+}
